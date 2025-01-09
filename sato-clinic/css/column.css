@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/* * {
+    outline: 1px solid blue;
+} */
+
+/* aboutページ */
+#container {
+  background-color: #f3fafe;
+}
+
+#columnTitle {
+  background-color: #012f46;
+  color: #fff;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  text-align: center;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columnIcon {
+  width: 56px;
+  height: 56px;
+  padding-bottom: 4px;
+}
+
+.columnText {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 17px;
+}
+
+.columnEn {
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+#columnContents {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.column {
+  display: flex;
+  align-items: baseline;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  border: 1px solid #dce0e2;
+  height: 83px;
+  background-color: #fff;
+  line-height: 83px;
+}
+.newIcon {
+  border-radius: 50%;
+  background-color: #f98a9a;
+  width: 42px;
+  height: 42px;
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 19px;
+}
+.columnTitle a {
+  color: #444444;
+  margin-left: 20px;
+}
+.columnDate {
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 16px;
+  padding-left: 19px;
+  border: 1px solid #dce0e2;
+  height: 32px;
+  line-height: 32px;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+/* ここからcolumn_page1 */
+
+.columnTop {
+  background-color: #fff;
+  height: 62px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 62px;
+  padding-right: 20px;
+}
+.columnTop a {
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  color: #444444;
+}
+
+#columnContents-1 {
+  display: block;
+}
+.column-1 {
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.columnDate-1 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.columnTitle-1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.newIcon-1 {
+  border-radius: 50%;
+  background-color: #f98a9a;
+  width: 42px;
+  height: 42px;
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 19px;
+}
+.columnImg-1 img {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  float: left;
+}
+@media screen and (max-width: 880px) {
+  .columnImg-1 img {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.columnText-1 {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  line-height: 31.5px;
+}
+.columnBottom {
+  background-color: #f3fafe;
+  height: 62px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 62px;
+  padding-right: 20px;
+}
+.columnBottom a {
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  color: #444444;
+}
+.columnFooter {
+  background-color: #fff;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  border-top: 1px solid #dcdfe1;
+  border-bottom: 1px solid #dcdfe1;
+  margin-bottom: 50px;
+}
+.columnFooter-1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.columnFooter-2 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.columnFooter-3 {
+  margin-top: 5px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dcdfe1;
+  width: 90%;
+}
+.columnFooter-3 a {
+  color: #444444;
+  text-decoration: none;
+}
+.columnFooter-3 a img {
+  margin-left: 25px;
+}
+.columnDetail {
+  background-image: url(../images/column/column_detail_07.png);
+  background-repeat: no-repeat;
+  height: 36px;
+  text-decoration: none;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-weight: bold;
+  background-position: right;
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.columnDetail a {
+  color: #444444;
+  text-decoration: none;
+  margin-right: 20px;
+  line-height: 30px;
+}
+/* ここからcolumn_page2 */
+.columnTop-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 62px;
+  line-height: 62px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.columnTop-2 a {
+  color: #444444;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+}
+.columnBottom-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.columnBottom-2 a {
+  color: #444444;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+}
+/* ここからcolumn_page3 */
+
+.sp {
+  display: block;
+}
+
+@media screen and (max-width: 880px) {
+  .pc {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 880px) {
+  .sp {
+    display: block;
+  }
+}

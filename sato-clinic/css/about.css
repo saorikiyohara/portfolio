@@ -1,0 +1,413 @@
+@charset "UTF-8";
+
+/* * {
+    outline: 1px solid blue;
+} */
+
+/* aboutページ */
+#container {
+  background-color: #f3fafe;
+}
+
+#aboutTitle {
+  background-color: #012f46;
+  color: #fff;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  text-align: center;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutIcon {
+  width: 56px;
+  height: 56px;
+  padding-bottom: 4px;
+}
+
+.aboutTextTop {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 17px;
+}
+
+.aboutEn {
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+#aboutItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.aboutItem1 {
+  width: 450px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 31.5px;
+}
+
+.aboutItem2 img {
+  width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+  #aboutItem {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .aboutItem1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+#aboutContents {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.aboutImg {
+  position: relative;
+}
+
+.about-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.aboutText {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 31.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 880px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutImg {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .aboutText {
+    margin-top: 10px;
+  }
+}
+
+.aboutDetail {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.about_bg {
+  position: relative;
+}
+
+.aboutLetter {
+  position: absolute;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+.aboutIconImg {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 45px;
+}
+
+.arrow {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.policyImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.policyIcon {
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -250px;
+  margin-top: -15px;
+}
+
+.policyTitle {
+  font-size: 25px;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  border-bottom: double 6px #96c4e2;
+}
+
+.policyText {
+  line-height: 31.5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 880px) {
+  .number {
+    margin-left: -130px;
+  }
+
+  .policyTitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: double 6px #96c4e2;
+  }
+  .policyImg {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.policyIcon-2 {
+  position: relative;
+}
+
+.number-2 {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -360px;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 880px) {
+  .number-2 {
+    margin-left: -130px;
+  }
+
+  .policyTitle-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: none;
+  }
+
+  .policyTitle-2 p {
+    border-bottom: double 6px #96c4e2;
+  }
+}
+
+.policyIcon-3 {
+  position: relative;
+}
+
+.number-3 {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -280px;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 880px) {
+  .number-3 {
+    margin-left: -130px;
+  }
+
+  .policyTitle-3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: none;
+  }
+
+  .policyTitle-3 p {
+    border-bottom: double 6px #96c4e2;
+  }
+}
+
+.policyIcon-4 {
+  position: relative;
+}
+
+.number-4 {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -400px;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 880px) {
+  .number-4 {
+    margin-left: -180px;
+  }
+
+  .policyTitle-4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: none;
+  }
+
+  .policyTitle-4 p {
+    border-bottom: double 6px #96c4e2;
+  }
+}
+
+.policyIcon-5 {
+  position: relative;
+}
+
+.number-5 {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -150px;
+  margin-top: 10px;
+}
+
+.policyTitle {
+  border-bottom: double 6px #96c4e2;
+}
+
+@media screen and (max-width: 880px) {
+  .number-5 {
+    margin-left: -120px;
+  }
+
+  .policyTitle-5 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+
+.policyIcon-6 {
+  position: relative;
+}
+
+.number-6 {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -350px;
+}
+
+@media screen and (max-width: 880px) {
+  .number-6 {
+    margin-left: -150px;
+  }
+
+  .policyTitle-6 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-bottom: none;
+  }
+
+  .policyTitle-6 p {
+    border-bottom: double 6px #96c4e2;
+  }
+}
+
+.policyIcon-7 {
+  position: relative;
+}
+
+.number-7 {
+  position: absolute;
+  color: #2c7baa;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  font-size: 128px;
+  font-weight: bold;
+  margin-left: -150px;
+  margin-top: -10px;
+}
+
+.policyTitle {
+  border-bottom: double 6px #96c4e2;
+}
+
+@media screen and (max-width: 880px) {
+  .number-7 {
+    margin-left: -120px;
+  }
+
+  .policyTitle-7 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+
+.sp {
+  display: block;
+}
+
+@media screen and (max-width: 880px) {
+  .pc {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 880px) {
+  .sp {
+    display: block;
+  }
+}
