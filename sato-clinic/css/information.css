@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* * {
+    outline: 1px solid blue;
+} */
+
+/* aboutページ */
+#container {
+  background-color: #f3fafe;
+}
+
+#informTitle {
+  background-color: #012f46;
+  color: #fff;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+  text-align: center;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.informIcon {
+  width: 56px;
+  height: 56px;
+  padding-bottom: 4px;
+}
+
+.informText {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 17px;
+}
+
+.informEn {
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+#informContents,
+#informContents-2,
+#informContents-3,
+#informContents-4 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.informDate {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.informTop-1,
+.informTop-2,
+.informTop-3,
+.informTop-4,
+.informTop-5 {
+  border-radius: 12px;
+  background-color: #7fb26e;
+  width: 320px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.informDetail {
+  line-height: 35px;
+}
+.informTop-1,
+.informTop-2,
+.informTop-3,
+.informTop-4,
+.informTop-5,
+p {
+  color: #fff;
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+}
+.informTop-2 {
+  width: 235px;
+}
+.informTop-3 {
+  width: 181px;
+}
+.informTop-5 {
+  width: 300px;
+}
+.informDetail-5 {
+  line-height: 35px;
+  margin-bottom: 100px;
+}
+
+.sp {
+  display: block;
+}
+
+@media screen and (max-width: 880px) {
+  .pc {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 880px) {
+  .sp {
+    display: block;
+  }
+}
