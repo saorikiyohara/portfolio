@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="佐藤医院ホームページ" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/top.css" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "fru5msn",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <title>佐藤医院のホームページ</title>
+  </head>
+
+  <body>
+    <div id="containerParent">
+      <div id="container">
+        <div id="header">
+          <div class="headSticky">
+            <div class="toguru sp"></div>
+            <div class="logo sp">
+              <a href="index.html"
+                ><img src="images/images/logo_03.png" alt="佐藤医院ロゴ"
+              /></a>
+            </div>
+            <div class="clock sp">
+              <a href="index.html#reserve"
+                ><img src="images/images/schedule_03.png" alt="診療時間"
+              /></a>
+            </div>
+          </div>
+          <div class="logo pc">
+            <a href="index.html"
+              ><img src="images/images/logo_03.png" alt="佐藤医院ロゴ"
+            /></a>
+          </div>
+          <div class="address pc">
+            <div class="headerAddress">〒000−0000</div>
+            <div class="headerAddress">東京都台東区上野0丁目0 - 0</div>
+          </div>
+          <div class="phone">
+            <div class="book sp">ご予約</div>
+            <div class="headerPhone sp">
+              <img src="images/images/phone_09.png" alt="電話のアイコン" />
+            </div>
+            <div class="phoneNumber sp">00-0000-0000</div>
+          </div>
+          <div class="contact pc">
+            <div class="headerIcon">
+              <img src="images/images/phone_09.png" alt="電話のアイコン" />
+            </div>
+            <div class="headerText">お問い合わせはこちら</div>
+            <div class="headerPhone">00-0000-0000</div>
+          </div>
+          <div class="transportation pc">
+            <a href="detail/detail.html#mapTitle"
+              ><img src="images/images/transportation_06.png" alt="交通案内"
+            /></a>
+          </div>
+        </div>
+        <div id="nav">
+          <div class="openBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p class="openTxt"></p>
+          </div>
+          <ul class="navUl">
+            <li class="navLi"><a href="index.html">TOP</a></li>
+            <li class="navLi">
+              <a href="content/content.html">診療内容</a>
+            </li>
+            <li class="navLi staff">
+              <a href="content/content.html#staffInfo">ー スタッフ紹介</a>
+            </li>
+            <li class="navLi"><a href="about/about.html">当院について</a></li>
+            <li class="navLi">
+              <a href="detail/detail.html">診療時間・所在地</a>
+            </li>
+            <li class="navLi">
+              <a href="question/question.html">よくあるご質問</a>
+            </li>
+            <li class="navLi">
+              <a href="contact/contact.html">ご予約・お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+        <div id="topImg">
+          <img
+            src="images/images/top_img_05.png"
+            alt="佐藤医院外観"
+            class="pc"
+          />
+          <img
+            src="images/images/top_img_sp_06.png"
+            alt="佐藤医院外観"
+            class="sp"
+          />
+          <div id="catch">
+            <img
+              src="images/images/top_text_08.png"
+              alt="〜地域に根ざした医療〜"
+            />
+          </div>
+          <div id="reserve">
+            <div class="grid-container">
+              <div class="reserveItem">診療時間</div>
+              <div class="reserveItem">月火水木金土日</div>
+              <div class="reserveItem">9時〜12時</div>
+              <div class="reserveItem">●●●／●●／</div>
+              <div class="reserveItem">14時〜19時</div>
+              <div class="reserveItem">●●●／●／／</div>
+            </div>
+            <div class="reserveInfo">
+              <p>受付時間：9時〜12時・13時〜18時</p>
+              <p>休診日：木曜・土曜午後・日曜</p>
+            </div>
+            <div class="reserveRef">
+              <p>※祝祭日も診察を行っておりますが、</p>
+              <p>休診日もございますので、事前にご確認ください。</p>
+            </div>
+          </div>
+        </div>
+        <div id="information">
+          <div id="informationTitle">
+            <div class="informationTitle">
+              <img src="images/images/info_13.png" alt="ご連絡" />
+            </div>
+            <div class="informationDetail">
+              <a href="#"
+                ><img src="images/images/info_detail_16.png" alt="詳細はこちら"
+              /></a>
+            </div>
+          </div>
+          <div class="informationItem">
+            <div class="informationDate">2024.10.01 Sat</div>
+            <div class="informationContent">
+              <a href="information/information.html#informContents"
+                >インフルエンザ予防接種について</a
+              >
+            </div>
+            <div class="informationIcon">
+              <img src="images/images/new_21.png" alt="New!" />
+            </div>
+          </div>
+          <div class="informationItem">
+            <div class="informationDate">2024.09.15 Wed</div>
+            <div class="informationContent">
+              <a href="information/information.html#informContents-2"
+                >年末年始の休診について</a
+              >
+            </div>
+          </div>
+          <div class="informationItem">
+            <div class="informationDate">2024.04.01 Mon</div>
+            <div class="informationContent">
+              <a href="information/information.html#informContents-3"
+                >健康診断のご案内</a
+              >
+            </div>
+          </div>
+          <div class="informationItem">
+            <div class="informationDate">2023.03.01 Mon</div>
+            <div class="informationContent">
+              <a href="information/information.html#informContents-4"
+                >新型コロナウイルス対策について</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="contents">
+          <div class="contentsItem">
+            <div class="contentsDetail">
+              <a href="content/content.html"
+                ><img
+                  src="images/images/medi_info_03.png"
+                  alt="聴診器のアイコン"
+                />診療内容</a
+              >
+            </div>
+            <div class="contentsDetail">
+              <a href="about/about.html"
+                ><img
+                  src="images/images/about_03.png"
+                  alt="病院のアイコン"
+                />当院について</a
+              >
+            </div>
+            <div class="contentsDetail">
+              <a href="detail/detail.html"
+                ><img
+                  src="images/images/time_place.png"
+                  alt="時計とマップのアイコン"
+                />診療時間/所在地</a
+              >
+            </div>
+            <div class="contentsDetail">
+              <a href="question/question.html"
+                ><img
+                  src="images/images/question.png"
+                  alt="?マークのアイコン"
+                />よくあるご質問</a
+              >
+            </div>
+            <div class="contentsDetail">
+              <a href="contact/contact.html"
+                ><img
+                  src="images/images/phone_mail.png"
+                  alt="電話とメールのアイコン"
+                />
+                <p>ご予約</p>
+                <p>お問い合わせ</p>
+              </a>
+            </div>
+            <div class="contentsDetail">
+              <a href="column/column_top.html"
+                ><img
+                  src="images/images/column.png"
+                  alt="ノートとペンのアイコン"
+                />コラム</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="greeting">
+          <div class="greetingTitle">
+            <div class="greetingIcon">
+              <img
+                src="images/images/doctor_icon_03.png"
+                alt="医師のアイコン"
+              />
+            </div>
+            <div class="greetingText">院長挨拶</div>
+            <div class="greetingEn">-GREETING-</div>
+          </div>
+          <div class="greetingItem">
+            <div class="greetingItem1">
+              <img
+                class="pc"
+                src="images/images/doctor_03.png"
+                alt="佐藤院長写真"
+              />
+              <img
+                class="sp"
+                src="images/images/doctor_sp_02.png"
+                alt="佐藤院長写真"
+              />
+            </div>
+            <div class="greetingItem2">
+              <p>
+                こんにちは。佐藤内科医院の院長、佐藤太郎と申します。当院のホームページをご覧いただき、ありがとうございます。
+              </p>
+              <p>
+                佐藤内科医院では、「地域に根ざした医療」をモットーに、患者様一人ひとりに寄り添った医療を提供することを目指しております。日常的な健康管理から生活習慣病の予防、さらには専門的な診断や治療まで、幅広い内科診療を行い、地域の皆様の健康を支える役割を担っていきたいと考えております。
+              </p>
+              <p>
+                私たちは、患者様の不安を少しでも軽減し、安心して診療を受けていただけるよう、わかりやすい説明と丁寧な対応を心掛けております。また、近隣の医療機関とも連携し、必要に応じて高度医療へのアクセスもサポートいたします。どんな小さな不調でも、どうぞお気軽にご相談ください。
+                これからも、患者様の健康を第一に考え、地域の皆様に信頼される医療機関であり続けるため、スタッフ一同努力してまいります。どうぞよろしくお願いいたします。
+              </p>
+            </div>
+          </div>
+          <div id="greetingLast">
+            <div class="greetingItem3">
+              <p>佐藤内科医院</p>
+              <p>院長 佐藤太郎</p>
+            </div>
+            <div class="columnBtn">
+              <a href="column/column_top.html">
+                院長コラムはこちら<img
+                  src="images/images/triangle_07.png"
+                  alt="三角"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="backToTop">
+          <a href="#TOP"
+            ><img src="images/images/top_btn_03.png" alt="TOPへ戻る"
+          /></a>
+        </div>
+        <div id="footer">
+          <div class="footerleft">
+            <div class="footerLogo">
+              <a href="#TOP"
+                ><img src="images/images/logo_03.png" alt="佐藤医院ロゴ"
+              /></a>
+            </div>
+            <div class="FooterAddress">
+              〒123-4567　東京都台東区上野0丁目 0 - 0
+            </div>
+            <div class="footerTransportation">
+              <a href="detail/detail.html#mapTitle"
+                ><img src="images/images/transportation_06.png" alt="交通案内"
+              /></a>
+            </div>
+          </div>
+          <div class="footercenter">
+            <div class="footertText">
+              <img
+                src="images/images/slash_left_03.png"
+                alt="スラッシュ"
+              />相互リンク募集中<img
+                src="images/images/slash_06.png"
+                alt="スラッシュ"
+              />
+            </div>
+            <div class="banner">
+              <div class="banner-1">
+                <a href="#"
+                  ><img
+                    src="images/images/banner_1.png"
+                    alt="上野医師連盟相互リンクバナー"
+                /></a>
+              </div>
+              <div class="banner-2">
+                <a href="index.html"
+                  ><img
+                    src="images/images/banner_2.png"
+                    alt="佐藤医院相互リンクバナー"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footerright">
+            <div class="footerNav">
+              <a href="index.html">
+                <p>TOP</p>
+              </a>
+              <a href="content/content.html">
+                <p>診療内容</p>
+              </a>
+              <a href="about/about.html">
+                <p>当院について</p>
+              </a>
+              <a href="detail/detail.html">
+                <p>診療時間・所在地</p>
+              </a>
+              <a href="question/question.html">
+                <p>よくあるご質問</p>
+              </a>
+              <a href="contact/contact.html">
+                <p>ご予約・お問い合わせ</p>
+              </a>
+            </div>
+            <small>Copyright⒞ Sato Clinic All Rights Reserved</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      $(".openBtn").click(function () {
+        $(this).toggleClass("active");
+        $(".navUl").toggleClass("active");
+        $(".openTxt").toggleClass("active");
+        $(".staff").toggleClass("active");
+        // $(".navLi").toggleClass("active");
+        // $(".navLi a").toggleClass("active");
+        // $(".close").toggleClass("active");
+      });
+    </script>
+  </body>
+</html>
